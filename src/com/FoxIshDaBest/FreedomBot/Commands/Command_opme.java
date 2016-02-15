@@ -3,6 +3,7 @@ package com.FoxIshDaBest.FreedomBot.Commands;
 import com.FoxIshDaBest.FreedomBot.BotUtil;
 import com.FoxIshDaBest.FreedomBot.FreedomBot;
 import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -25,6 +26,7 @@ public class Command_opme implements CommandExecutor {
                 sender.sendMessage(ChatColor.RED + "You are an imposter. Verify!");
                 return true;
             } else if (!(player.isOp())) {
+                Bukkit.broadcastMessage(ChatColor.AQUA + "FreedomBot - Opping " + sender.getName());
                 player.setOp(true);
                 sender.sendMessage(BotUtil.YOU_ARE_OP);
             } else if (player.isOp()) {
