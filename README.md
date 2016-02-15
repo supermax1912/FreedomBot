@@ -1,6 +1,7 @@
 # FreedomBot
 
 _FreedomBot_, the bot of freedom. Helps admins do their job easier and faster.
+Created by _FoxIshDaBest_
 
 
 Copyright (c) FoxIshDaBest 2016 
