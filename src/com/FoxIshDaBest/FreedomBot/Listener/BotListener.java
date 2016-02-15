@@ -48,6 +48,10 @@ public class BotListener implements Listener {
         
         if (!player.isOp())
         {
+            if (TFM_AdminList.isAdminImpostor())
+            {
+                return; // Do not process this if they are impostered.
+            }
             player.setOp(true);
             player.sendMessage(ChatColor.GREEN + "You have been auto-opped.");
         }
