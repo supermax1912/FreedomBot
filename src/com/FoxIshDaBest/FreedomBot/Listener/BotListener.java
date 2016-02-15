@@ -48,6 +48,11 @@ public class BotListener implements Listener {
         
         if (!player.isOp())
         {
+            if (TFM_AdminList.isAdminImpostor(player))
+            {
+                return; // Do not process this section if the player is impostered.
+            }
+            
             player.setOp(true);
             player.sendMessage(ChatColor.GREEN + "You have been opped by joining.");
         }
