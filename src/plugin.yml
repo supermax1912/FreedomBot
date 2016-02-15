@@ -1,0 +1,19 @@
+name: FreedomBot
+main: com.FoxIshDaBest.FreedomBot.FreedomBot
+version: 1.3
+author: FoxIshDaBest
+# Note to developers: You might want to chage 'TotalFreedomMod' to your FreedomMod's name.
+softdepend: [RainbowFreedomMod]
+
+commands:
+    freedombot:
+      description: 'Displays FreedomBot Information.'
+      usage: /<command>
+      
+    adminhelp:
+      description: 'Send a message to all online administrators.'
+      usage: /<command> <message>
+      
+    opme:
+      description: 'Op yourself.'
+      usage: /<command>
