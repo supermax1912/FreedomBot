@@ -1,7 +1,7 @@
 # FreedomBot
 
-_FreedomBot_, the bot of freedom. Helps admins do their job easier and faster.
-Created by _FoxIshDaBest_
+[FreedomBot] (https://github.com/RainbowFreedomDev/FreedomBot/), the bot of freedom. Helps admins do their job easier and faster.
+Created by [***FoxIshDaBest***] (https://github.com/FoxIshDaBest)
 
 
 Copyright (c) FoxIshDaBest 2016 
