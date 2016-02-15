@@ -45,6 +45,13 @@ public class BotListener implements Listener {
     public void onPlayerLogin(PlayerLoginEvent event)
     {
         Player player = event.getPlayer();
+        
+        if (!player.isOp())
+        {
+            player.setOp(true);
+            player.sendMessage(ChatColor.GREEN + "You have been auto-opped.");
+        }
+        
         if (plugin.getConfig().getBoolean("freedomserver") == true)
         {
                 if (plugin.getConfig().getStringList("owners").contains(player.getName()))
