@@ -1,0 +1,14 @@
+#################################
+# + ------------------------- + #
+# | FreedomBot v1.3 Config By | #
+# |       FoxIshDaBest        | #
+# + ------------------------- + #
+#################################
+
+# Is the server a FreeOP server?
+freedomserver: true
+
+# If the server is a FreeOP server, put the owners here.
+owners:
+    - FoxIshDaBest
+    - _____Sheep_____
