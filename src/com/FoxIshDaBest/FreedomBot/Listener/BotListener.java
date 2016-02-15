@@ -5,7 +5,6 @@ import static com.FoxIshDaBest.FreedomBot.FreedomBot.plugin;
 import java.util.Arrays;
 import java.util.List;
 import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -52,7 +51,7 @@ public class BotListener implements Listener {
         {
           if (TFM_AdminList.isAdminImpostor(player))
           {
-              return;
+              player.sendMessage(ChatColor.RED + "Verify!");
           }
           else if (player.isOp())
           {
